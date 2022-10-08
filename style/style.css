@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "lato";
+  color: #e7dfdd;
+}
+
+.container {
+  height: 100vh;
+  min-width: calc(100% - 200px);
+  overflow: hidden;
+}
+.container video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.main__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.main__Container .main__title-name {
+  margin-top: 30px;
+}
+.main__Container .main__title-name h2 {
+  font-size: 30px;
+}
+.main__Container .main__title-name h1 {
+  font-size: 50px;
+}
+.main__Container .main__img-Container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin: 25px 0;
+}
+.main__Container .main__img-Container .img__Border-profile {
+  background-color: rgba(162, 57, 202, 0.6);
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.main__Container .main__img-Container .img__Border-profile .img__Profile {
+  background-image: url("../../assets/perfil-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 210px;
+  max-height: 210px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(50% - 100px);
+}
+.description h2 {
+  font-size: 18px;
+}
+.description .description__view-portfolio {
+  margin-top: 20px;
+  max-width: 250px;
+  height: 50px;
+}
+.description .description__view-portfolio button {
+  cursor: pointer;
+  background: transparent;
+  width: 230px;
+  height: 50px;
+  border: 3px solid rgba(162, 57, 202, 0.6);
+  border-radius: 10px;
+}
+.description .description__nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description .description__nav li {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  margin: 15px;
+}
+.description .description__nav i {
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
